@@ -11,3 +11,16 @@
 [2024-03-06T11:03:07.040-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=TSLA, execution_date=20240131T000000, start_date=20240306T140306, end_date=20240306T140307
 [2024-03-06T11:03:07.069-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
 [2024-03-06T11:03:07.081-0300] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-06T12:04:45.133-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_stocks_dag.TSLA scheduled__2024-01-31T00:00:00+00:00 [queued]>
+[2024-03-06T12:04:45.158-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_stocks_dag.TSLA scheduled__2024-01-31T00:00:00+00:00 [queued]>
+[2024-03-06T12:04:45.161-0300] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-06T12:04:45.189-0300] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): TSLA> on 2024-01-31 00:00:00+00:00
+[2024-03-06T12:04:45.204-0300] {standard_task_runner.py:60} INFO - Started process 41417 to run task
+[2024-03-06T12:04:45.251-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'TSLA', 'scheduled__2024-01-31T00:00:00+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/get_stoks.py', '--cfg-path', '/tmp/tmptipnkxr2']
+[2024-03-06T12:04:45.261-0300] {standard_task_runner.py:88} INFO - Job 83: Subtask TSLA
+[2024-03-06T12:04:45.444-0300] {task_command.py:423} INFO - Running <TaskInstance: get_stocks_dag.TSLA scheduled__2024-01-31T00:00:00+00:00 [running]> on host BITL0401.
+[2024-03-06T12:04:45.806-0300] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_stocks_dag' AIRFLOW_CTX_TASK_ID='TSLA' AIRFLOW_CTX_EXECUTION_DATE='2024-01-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-31T00:00:00+00:00'
+[2024-03-06T12:04:46.625-0300] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-06T12:04:46.658-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=TSLA, execution_date=20240131T000000, start_date=20240306T150445, end_date=20240306T150446
+[2024-03-06T12:04:46.716-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-06T12:04:46.762-0300] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

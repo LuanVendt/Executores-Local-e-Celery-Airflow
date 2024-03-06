@@ -12,3 +12,45 @@
 [2024-03-06T10:58:53.872-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=MSFT, execution_date=20240102T000000, start_date=20240306T135852, end_date=20240306T135853
 [2024-03-06T10:58:53.925-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
 [2024-03-06T10:58:53.937-0300] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-06T12:04:08.429-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_stocks_dag.MSFT scheduled__2024-01-02T00:00:00+00:00 [queued]>
+[2024-03-06T12:04:08.470-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_stocks_dag.MSFT scheduled__2024-01-02T00:00:00+00:00 [queued]>
+[2024-03-06T12:04:08.471-0300] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-06T12:04:08.518-0300] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): MSFT> on 2024-01-02 00:00:00+00:00
+[2024-03-06T12:04:08.536-0300] {standard_task_runner.py:60} INFO - Started process 39017 to run task
+[2024-03-06T12:04:08.616-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'MSFT', 'scheduled__2024-01-02T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/get_stoks.py', '--cfg-path', '/tmp/tmp20mlunuu']
+[2024-03-06T12:04:08.638-0300] {standard_task_runner.py:88} INFO - Job 6: Subtask MSFT
+[2024-03-06T12:04:09.111-0300] {task_command.py:423} INFO - Running <TaskInstance: get_stocks_dag.MSFT scheduled__2024-01-02T00:00:00+00:00 [running]> on host BITL0401.
+[2024-03-06T12:04:09.851-0300] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_stocks_dag' AIRFLOW_CTX_TASK_ID='MSFT' AIRFLOW_CTX_EXECUTION_DATE='2024-01-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-02T00:00:00+00:00'
+[2024-03-06T12:04:11.689-0300] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py", line 19, in get_history
+    yfinance.Ticker(ticker).history(
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/yfinance/utils.py", line 103, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/yfinance/base.py", line 77, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/yfinance/utils.py", line 103, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/yfinance/scrapers/history.py", line 226, in history
+    logger.debug(f'{self.ticker}: yfinance received OHLC data: {quotes.index[0]} -> {quotes.index[-1]}')
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 5389, in __getitem__
+    return getitem(key)
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 379, in __getitem__
+    result = cast("Union[Self, DTScalarOrNaT]", super().__getitem__(key))
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/pandas/core/arrays/_mixins.py", line 284, in __getitem__
+    result = self._ndarray[key]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+[2024-03-06T12:04:11.969-0300] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=get_stocks_dag, task_id=MSFT, execution_date=20240102T000000, start_date=20240306T150408, end_date=20240306T150411
+[2024-03-06T12:04:15.428-0300] {standard_task_runner.py:107} ERROR - Failed to execute job 6 for task MSFT (index 0 is out of bounds for axis 0 with size 0; 39017)
+[2024-03-06T12:04:15.471-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-06T12:04:15.568-0300] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -11,3 +11,16 @@
 [2024-03-06T11:02:52.047-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=GOOG, execution_date=20240130T000000, start_date=20240306T140251, end_date=20240306T140252
 [2024-03-06T11:02:52.104-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
 [2024-03-06T11:02:52.116-0300] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-06T12:04:45.158-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_stocks_dag.GOOG scheduled__2024-01-30T00:00:00+00:00 [queued]>
+[2024-03-06T12:04:45.188-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_stocks_dag.GOOG scheduled__2024-01-30T00:00:00+00:00 [queued]>
+[2024-03-06T12:04:45.190-0300] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-06T12:04:45.235-0300] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): GOOG> on 2024-01-30 00:00:00+00:00
+[2024-03-06T12:04:45.262-0300] {standard_task_runner.py:60} INFO - Started process 41421 to run task
+[2024-03-06T12:04:45.286-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'GOOG', 'scheduled__2024-01-30T00:00:00+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/get_stoks.py', '--cfg-path', '/tmp/tmpqc5ls30e']
+[2024-03-06T12:04:45.290-0300] {standard_task_runner.py:88} INFO - Job 82: Subtask GOOG
+[2024-03-06T12:04:45.474-0300] {task_command.py:423} INFO - Running <TaskInstance: get_stocks_dag.GOOG scheduled__2024-01-30T00:00:00+00:00 [running]> on host BITL0401.
+[2024-03-06T12:04:45.888-0300] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_stocks_dag' AIRFLOW_CTX_TASK_ID='GOOG' AIRFLOW_CTX_EXECUTION_DATE='2024-01-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-30T00:00:00+00:00'
+[2024-03-06T12:04:46.770-0300] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-06T12:04:46.801-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=GOOG, execution_date=20240130T000000, start_date=20240306T150445, end_date=20240306T150446
+[2024-03-06T12:04:46.883-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-06T12:04:46.953-0300] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

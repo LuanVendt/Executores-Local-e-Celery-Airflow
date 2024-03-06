@@ -355,3 +355,304 @@
 [2024-03-06T11:24:18.113-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:24:18.112-0300] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-03-06T11:24:18.236-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:24:18.236-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
 [2024-03-06T11:24:18.263-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.505 seconds
+[2024-03-06T11:24:48.452-0300] {processor.py:161} INFO - Started process (PID=26485) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:24:48.454-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:24:48.455-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:24:48.455-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:24:48.895-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:24:48.912-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:24:48.911-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:24:48.926-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:24:48.925-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:24:48.949-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.499 seconds
+[2024-03-06T11:25:19.135-0300] {processor.py:161} INFO - Started process (PID=26776) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:25:19.139-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:25:19.141-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:25:19.140-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:25:19.563-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:25:19.581-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:25:19.580-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:25:19.596-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:25:19.595-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:25:19.620-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.487 seconds
+[2024-03-06T11:25:49.716-0300] {processor.py:161} INFO - Started process (PID=26924) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:25:49.718-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:25:49.719-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:25:49.718-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:25:50.140-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:25:50.159-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:25:50.158-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:25:50.173-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:25:50.173-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:25:50.198-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.485 seconds
+[2024-03-06T11:26:20.299-0300] {processor.py:161} INFO - Started process (PID=27166) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:26:20.304-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:26:20.305-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:26:20.305-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:26:20.833-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:26:20.854-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:26:20.854-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:26:20.877-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:26:20.876-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:26:20.924-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.627 seconds
+[2024-03-06T11:26:51.103-0300] {processor.py:161} INFO - Started process (PID=27466) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:26:51.104-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:26:51.105-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:26:51.105-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:26:51.633-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:26:51.649-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:26:51.649-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:26:51.664-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:26:51.663-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:26:51.686-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.585 seconds
+[2024-03-06T11:27:21.788-0300] {processor.py:161} INFO - Started process (PID=27712) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:27:21.793-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:27:21.794-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:27:21.794-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:27:22.258-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:27:22.274-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:27:22.274-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:27:22.289-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:27:22.289-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:27:22.311-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.526 seconds
+[2024-03-06T11:27:52.476-0300] {processor.py:161} INFO - Started process (PID=27985) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:27:52.478-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:27:52.479-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:27:52.479-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:27:52.912-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:27:52.931-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:27:52.931-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:27:52.947-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:27:52.947-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:27:52.971-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.499 seconds
+[2024-03-06T11:28:23.156-0300] {processor.py:161} INFO - Started process (PID=28182) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:28:23.160-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:28:23.161-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:28:23.161-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:28:23.478-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:28:23.498-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:28:23.498-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:28:23.637-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:28:23.637-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:28:23.660-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.506 seconds
+[2024-03-06T11:28:53.844-0300] {processor.py:161} INFO - Started process (PID=28281) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:28:53.846-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:28:53.847-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:28:53.846-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:28:54.347-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:28:54.369-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:28:54.369-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:28:54.386-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:28:54.386-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:28:54.416-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.576 seconds
+[2024-03-06T11:29:24.540-0300] {processor.py:161} INFO - Started process (PID=28383) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:29:24.545-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:29:24.546-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:29:24.546-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:29:24.991-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:29:25.009-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:29:25.008-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:29:25.023-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:29:25.023-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:29:25.045-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.508 seconds
+[2024-03-06T11:29:55.224-0300] {processor.py:161} INFO - Started process (PID=28556) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:29:55.229-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:29:55.230-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:29:55.229-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:29:55.653-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:29:55.667-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:29:55.667-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:29:55.681-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:29:55.680-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:29:55.703-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.481 seconds
+[2024-03-06T11:30:25.805-0300] {processor.py:161} INFO - Started process (PID=28652) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:30:25.809-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:30:25.810-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:30:25.810-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:30:26.244-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:30:26.265-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:30:26.264-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:30:26.287-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:30:26.287-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:30:26.314-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.512 seconds
+[2024-03-06T11:30:56.490-0300] {processor.py:161} INFO - Started process (PID=28780) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:30:56.492-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:30:56.493-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:30:56.492-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:30:56.962-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:30:56.976-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:30:56.975-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:30:56.991-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:30:56.990-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:30:57.017-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.530 seconds
+[2024-03-06T11:31:27.172-0300] {processor.py:161} INFO - Started process (PID=29065) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:31:27.176-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:31:27.177-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:31:27.177-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:31:27.649-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:31:27.662-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:31:27.662-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:31:27.678-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:31:27.678-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:31:27.700-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.530 seconds
+[2024-03-06T11:31:57.853-0300] {processor.py:161} INFO - Started process (PID=29299) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:31:57.855-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:31:57.856-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:31:57.856-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:31:58.182-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:31:58.199-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:31:58.199-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:31:58.321-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:31:58.321-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:31:58.341-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.490 seconds
+[2024-03-06T11:32:28.451-0300] {processor.py:161} INFO - Started process (PID=29873) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:32:28.652-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:32:28.653-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:32:28.652-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:32:28.993-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:32:29.011-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:32:29.010-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:32:29.140-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:32:29.140-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:32:29.188-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.739 seconds
+[2024-03-06T11:32:59.369-0300] {processor.py:161} INFO - Started process (PID=30007) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:32:59.371-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:32:59.372-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:32:59.372-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:32:59.801-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:32:59.816-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:32:59.815-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:32:59.830-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:32:59.829-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:32:59.850-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.484 seconds
+[2024-03-06T11:33:29.954-0300] {processor.py:161} INFO - Started process (PID=30156) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:33:29.958-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:33:29.959-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:33:29.958-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:33:30.393-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:33:30.407-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:33:30.407-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:33:30.421-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:33:30.421-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:33:30.443-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.492 seconds
+[2024-03-06T11:34:00.527-0300] {processor.py:161} INFO - Started process (PID=32238) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:34:00.528-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:34:00.529-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:34:00.529-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:34:01.066-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:34:01.092-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:34:01.091-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:34:01.121-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:34:01.121-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:34:01.169-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.644 seconds
+[2024-03-06T11:34:31.341-0300] {processor.py:161} INFO - Started process (PID=32334) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:34:31.346-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:34:31.348-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:34:31.347-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:34:31.845-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:34:31.863-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:34:31.862-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:34:31.878-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:34:31.878-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:34:31.906-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.570 seconds
+[2024-03-06T11:35:02.019-0300] {processor.py:161} INFO - Started process (PID=32440) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:35:02.021-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:35:02.022-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:35:02.022-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:35:02.442-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:35:02.455-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:35:02.455-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:35:02.469-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:35:02.469-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:35:02.490-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.474 seconds
+[2024-03-06T11:35:32.604-0300] {processor.py:161} INFO - Started process (PID=32542) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:35:32.608-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:35:32.609-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:35:32.609-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:35:33.059-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:35:33.071-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:35:33.071-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:35:33.086-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:35:33.086-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:35:33.107-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.506 seconds
+[2024-03-06T11:36:03.286-0300] {processor.py:161} INFO - Started process (PID=32639) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:36:03.288-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:36:03.289-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:36:03.288-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:36:03.608-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:36:03.623-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:36:03.623-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:36:03.744-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:36:03.743-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:36:03.769-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.485 seconds
+[2024-03-06T11:36:33.869-0300] {processor.py:161} INFO - Started process (PID=32781) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:36:33.871-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:36:33.872-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:36:33.871-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:36:34.204-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:36:34.221-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:36:34.220-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:36:34.347-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:36:34.347-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:36:34.373-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.507 seconds
+[2024-03-06T11:37:04.556-0300] {processor.py:161} INFO - Started process (PID=32882) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:37:04.558-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:37:04.559-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:37:04.559-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:37:05.016-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:37:05.030-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:37:05.030-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:37:05.045-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:37:05.044-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:37:05.068-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.515 seconds
+[2024-03-06T11:37:35.243-0300] {processor.py:161} INFO - Started process (PID=32986) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:37:35.245-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:37:35.246-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:37:35.245-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:37:35.696-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:37:35.711-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:37:35.711-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:37:35.726-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:37:35.726-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:37:35.746-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.506 seconds
+[2024-03-06T11:38:05.927-0300] {processor.py:161} INFO - Started process (PID=33089) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:38:05.931-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:38:05.932-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:38:05.932-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:38:06.340-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:38:06.354-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:38:06.353-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:38:06.367-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:38:06.367-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:38:06.389-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.464 seconds
+[2024-03-06T11:38:36.508-0300] {processor.py:161} INFO - Started process (PID=33187) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:38:36.509-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:38:36.511-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:38:36.510-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:38:36.954-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:38:36.967-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:38:36.967-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:38:36.982-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:38:36.982-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:38:37.009-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.503 seconds
+[2024-03-06T11:39:07.192-0300] {processor.py:161} INFO - Started process (PID=33416) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:39:07.193-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:39:07.194-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:39:07.194-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:39:07.652-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:39:07.666-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:39:07.666-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:39:07.682-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:39:07.682-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:39:07.711-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.521 seconds
+[2024-03-06T11:39:37.881-0300] {processor.py:161} INFO - Started process (PID=33655) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:39:37.886-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:39:37.887-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:39:37.887-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:39:38.359-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:39:38.372-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:39:38.372-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:39:38.385-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:39:38.385-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:39:38.407-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.530 seconds
+[2024-03-06T11:40:08.566-0300] {processor.py:161} INFO - Started process (PID=33894) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:40:08.568-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T11:40:08.569-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:40:08.569-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:40:08.900-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T11:40:08.917-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:40:08.916-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T11:40:09.038-0300] {logging_mixin.py:188} INFO - [2024-03-06T11:40:09.038-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-16T00:00:00+00:00, run_after=2024-02-17T00:00:00+00:00
+[2024-03-06T11:40:09.062-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.498 seconds
+[2024-03-06T12:01:48.692-0300] {processor.py:161} INFO - Started process (PID=38177) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:01:48.695-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:01:48.696-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:01:48.696-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:01:49.112-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:01:49.136-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:01:49.135-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:01:49.155-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:01:49.155-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-01-02T00:00:00+00:00, run_after=2024-01-03T00:00:00+00:00
+[2024-03-06T12:01:49.281-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.593 seconds
+[2024-03-06T12:02:19.454-0300] {processor.py:161} INFO - Started process (PID=38354) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:02:19.458-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:02:19.459-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:02:19.459-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:02:19.974-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:02:20.070-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:02:20.070-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:02:20.089-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:02:20.089-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-01-02T00:00:00+00:00, run_after=2024-01-03T00:00:00+00:00
+[2024-03-06T12:02:20.118-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.666 seconds
+[2024-03-06T12:02:50.271-0300] {processor.py:161} INFO - Started process (PID=38463) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:02:50.273-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:02:50.274-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:02:50.274-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:02:50.734-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:02:50.765-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:02:50.764-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:02:50.785-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:02:50.785-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-01-02T00:00:00+00:00, run_after=2024-01-03T00:00:00+00:00
+[2024-03-06T12:02:50.805-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.536 seconds
+[2024-03-06T12:03:20.980-0300] {processor.py:161} INFO - Started process (PID=38565) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:03:20.984-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:03:20.985-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:03:20.985-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:03:21.422-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:03:21.454-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:03:21.454-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:03:21.473-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:03:21.473-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-01-02T00:00:00+00:00, run_after=2024-01-03T00:00:00+00:00
+[2024-03-06T12:03:21.501-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.524 seconds
+[2024-03-06T12:03:51.589-0300] {processor.py:161} INFO - Started process (PID=38671) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:03:51.590-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:03:51.590-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:03:51.590-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:03:52.336-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:03:52.422-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:03:52.421-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:03:52.473-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:03:52.472-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-01-02T00:00:00+00:00, run_after=2024-01-03T00:00:00+00:00
+[2024-03-06T12:03:52.508-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.923 seconds
+[2024-03-06T12:04:22.749-0300] {processor.py:161} INFO - Started process (PID=39482) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:04:22.753-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:04:22.755-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:04:22.755-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:04:24.253-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:04:24.479-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:04:24.478-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:04:24.809-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:04:24.809-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-01-19T00:00:00+00:00, run_after=2024-01-20T00:00:00+00:00
+[2024-03-06T12:04:24.838-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 2.101 seconds
+[2024-03-06T12:04:54.973-0300] {processor.py:161} INFO - Started process (PID=42113) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:04:54.975-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:04:54.977-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:04:54.977-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:04:56.057-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:04:56.129-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:04:56.129-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:04:56.700-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:04:56.700-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-14T00:00:00+00:00, run_after=2024-02-15T00:00:00+00:00
+[2024-03-06T12:04:56.827-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 1.861 seconds
+[2024-03-06T12:05:27.146-0300] {processor.py:161} INFO - Started process (PID=43255) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:05:27.148-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:05:27.149-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:05:27.149-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:05:27.571-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:05:27.600-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:05:27.600-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:05:27.619-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:05:27.619-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-21T00:00:00+00:00, run_after=2024-02-22T00:00:00+00:00
+[2024-03-06T12:05:27.644-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.499 seconds
+[2024-03-06T12:05:57.826-0300] {processor.py:161} INFO - Started process (PID=43409) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:05:57.831-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:05:57.832-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:05:57.831-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:05:58.290-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:05:58.320-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:05:58.320-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:05:58.340-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:05:58.339-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-21T00:00:00+00:00, run_after=2024-02-22T00:00:00+00:00
+[2024-03-06T12:05:58.364-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.541 seconds
+[2024-03-06T12:06:28.520-0300] {processor.py:161} INFO - Started process (PID=43586) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:06:28.522-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:06:28.522-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:06:28.522-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:06:28.958-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:06:28.989-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:06:28.988-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:06:29.008-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:06:29.008-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-21T00:00:00+00:00, run_after=2024-02-22T00:00:00+00:00
+[2024-03-06T12:06:29.033-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.514 seconds
+[2024-03-06T12:06:59.196-0300] {processor.py:161} INFO - Started process (PID=43796) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:06:59.199-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:06:59.199-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:06:59.199-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:06:59.607-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:06:59.634-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:06:59.634-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:06:59.654-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:06:59.654-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-21T00:00:00+00:00, run_after=2024-02-22T00:00:00+00:00
+[2024-03-06T12:06:59.678-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.484 seconds
+[2024-03-06T12:07:29.840-0300] {processor.py:161} INFO - Started process (PID=43974) to work on /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:07:29.841-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py for tasks to queue
+[2024-03-06T12:07:29.842-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:07:29.842-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:07:30.164-0300] {processor.py:840} INFO - DAG(s) 'get_stocks_dag' retrieved from /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py
+[2024-03-06T12:07:30.193-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:07:30.193-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-06T12:07:30.372-0300] {logging_mixin.py:188} INFO - [2024-03-06T12:07:30.371-0300] {dag.py:3834} INFO - Setting next_dagrun for get_stocks_dag to 2024-02-21T00:00:00+00:00, run_after=2024-02-22T00:00:00+00:00
+[2024-03-06T12:07:30.398-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py took 0.560 seconds
