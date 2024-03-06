@@ -927,3 +927,188 @@ File Path                                                               PID    R
 ----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.50s           2024-03-06T15:06:59
 ================================================================================
+[2024-03-06T12:07:50.936-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.58s           2024-03-06T15:07:30
+================================================================================
+[2024-03-06T12:08:21.085-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.55s           2024-03-06T15:08:01
+================================================================================
+[2024-03-06T12:08:51.338-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.58s           2024-03-06T15:08:31
+================================================================================
+[2024-03-06T12:09:21.490-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.59s           2024-03-06T15:09:02
+================================================================================
+[2024-03-06T12:09:51.662-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.50s           2024-03-06T15:09:33
+================================================================================
+[2024-03-06T12:10:21.805-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.53s           2024-03-06T15:10:03
+================================================================================
+[2024-03-06T12:10:52.422-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.52s           2024-03-06T15:10:34
+================================================================================
+[2024-03-06T12:11:22.600-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.49s           2024-03-06T15:11:04
+================================================================================
+[2024-03-06T12:11:48.735-0300] {manager.py:738} INFO - Searching for files in /home/luan/Documents/airflow-executores-local-celery/dags
+[2024-03-06T12:11:48.736-0300] {manager.py:741} INFO - There are 1 files in /home/luan/Documents/airflow-executores-local-celery/dags
+[2024-03-06T12:11:52.770-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.57s           2024-03-06T15:11:35
+================================================================================
+[2024-03-06T12:12:22.948-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.56s           2024-03-06T15:12:06
+================================================================================
+[2024-03-06T12:12:53.097-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.60s           2024-03-06T15:12:37
+================================================================================
+[2024-03-06T12:13:23.352-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.57s           2024-03-06T15:13:07
+================================================================================
+[2024-03-06T12:13:53.504-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.61s           2024-03-06T15:13:38
+================================================================================
+[2024-03-06T12:14:23.677-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.60s           2024-03-06T15:14:09
+================================================================================
+[2024-03-06T12:14:53.820-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.62s           2024-03-06T15:14:39
+================================================================================
+[2024-03-06T12:15:24.149-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.66s           2024-03-06T15:15:10
+================================================================================
+[2024-03-06T12:15:54.339-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  3.08s           2024-03-06T15:15:44
+================================================================================
+[2024-03-06T12:16:06.621-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-06T12:16:33.238-0300] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-06T12:16:33.239-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-06T12:16:33.239-0300] {manager.py:471} INFO - Checking for new files in /home/luan/Documents/airflow-executores-local-celery/dags every 300 seconds
+[2024-03-06T12:16:33.239-0300] {manager.py:738} INFO - Searching for files in /home/luan/Documents/airflow-executores-local-celery/dags
+[2024-03-06T12:16:33.241-0300] {manager.py:741} INFO - There are 1 files in /home/luan/Documents/airflow-executores-local-celery/dags
+[2024-03-06T12:16:33.477-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py  48402  0.04s             0           0
+================================================================================
+[2024-03-06T12:17:03.607-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.68s           2024-03-06T15:16:34
+================================================================================
+[2024-03-06T12:17:33.773-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.62s           2024-03-06T15:17:04
+================================================================================
+[2024-03-06T12:18:03.913-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.71s           2024-03-06T15:17:35
+================================================================================
+[2024-03-06T12:18:34.324-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/airflow-executores-local-celery/dags/get_stoks.py                           1           0  0.57s           2024-03-06T15:18:06
+================================================================================
+[2024-03-06T12:18:35.557-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
