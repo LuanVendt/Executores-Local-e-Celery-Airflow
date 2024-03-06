@@ -3,6 +3,7 @@ from airflow.decorators import dag, task
 from airflow.macros import ds_add
 from pathlib import Path
 import pendulum
+from time import sleep
 
 TICKERS = [
     'AAPL',
@@ -22,7 +23,8 @@ def get_history(ticker, ds=None, ds_nodash=None):
         start= ds_add(ds, -1),
         end= ds,
         prepost= True
-).to_csv(file_path)
+    ).to_csv(file_path)
+    sleep(10)
     
 @dag(
     schedule_interval= '0 0 * * 2-6',

@@ -1,0 +1,14 @@
+[2024-03-06T15:01:02.970-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_crypto_dag.ETH scheduled__2024-01-02T00:00:00+00:00 [queued]>
+[2024-03-06T15:01:02.983-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_crypto_dag.ETH scheduled__2024-01-02T00:00:00+00:00 [queued]>
+[2024-03-06T15:01:02.983-0300] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-06T15:01:03.000-0300] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): ETH> on 2024-01-02 00:00:00+00:00
+[2024-03-06T15:01:03.004-0300] {standard_task_runner.py:60} INFO - Started process 91533 to run task
+[2024-03-06T15:01:03.007-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'get_crypto_dag', 'ETH', 'scheduled__2024-01-02T00:00:00+00:00', '--job-id', '327', '--raw', '--subdir', 'DAGS_FOLDER/get_crypto.py', '--cfg-path', '/tmp/tmpvptmaseo']
+[2024-03-06T15:01:03.009-0300] {standard_task_runner.py:88} INFO - Job 327: Subtask ETH
+[2024-03-06T15:01:03.079-0300] {task_command.py:423} INFO - Running <TaskInstance: get_crypto_dag.ETH scheduled__2024-01-02T00:00:00+00:00 [running]> on host BITL0401.
+[2024-03-06T15:01:03.181-0300] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_crypto_dag' AIRFLOW_CTX_TASK_ID='ETH' AIRFLOW_CTX_EXECUTION_DATE='2024-01-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-02T00:00:00+00:00'
+[2024-03-06T15:01:11.229-0300] {history.py:90} ERROR - ETH: No timezone found, symbol may be delisted
+[2024-03-06T15:01:21.243-0300] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-06T15:01:21.260-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=get_crypto_dag, task_id=ETH, execution_date=20240102T000000, start_date=20240306T180102, end_date=20240306T180121
+[2024-03-06T15:01:21.309-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-06T15:01:21.332-0300] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
