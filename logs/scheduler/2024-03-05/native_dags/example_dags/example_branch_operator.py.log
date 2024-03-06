@@ -1,0 +1,20 @@
+[2024-03-05T16:07:01.421-0300] {processor.py:161} INFO - Started process (PID=88623) to work on /home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-05T16:07:01.421-0300] {processor.py:830} INFO - Processing file /home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-05T16:07:01.422-0300] {logging_mixin.py:188} INFO - [2024-03-05T16:07:01.422-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-05T16:07:01.504-0300] {logging_mixin.py:188} INFO - [2024-03-05T16:07:01.503-0300] {dagbag.py:350} ERROR - Failed to import: /home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-03-05T16:07:01.504-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-05T16:07:01.523-0300] {processor.py:183} INFO - Processing /home/luan/Documents/airflow-executores-local-celery/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.104 seconds
